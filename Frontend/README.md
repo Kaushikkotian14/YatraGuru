@@ -1,16 +1,4 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-
-  
-
-  
 # Trip Planner App :earth_africa:	:mountain_snow:
 
 <div style="text-align: center;"> 
@@ -47,6 +35,8 @@ Currently, two official plugins are available:
 ![image](https://github.com/user-attachments/assets/9becf901-04d3-450b-bede-975d384b407c)
 
 ## Yatra Sahayak
+![image](https://github.com/user-attachments/assets/f26237d2-d614-4a47-b063-54aa17af7c02)
+
 
 
 
@@ -54,14 +44,28 @@ Currently, two official plugins are available:
 
 <br />
 
+## To run project:
+
+## Step 1:Backend folder
+Python Virtual Env setup:
+1.python -m venv myenv
+2.to start = .\venv\Scripts\activate
+3. python app.py
+
+## Step 2:
+1.npm i
+2.Create Frontend/.env.local add api keys
+2.npm run fev
 
 ## Setup .env file
 ### :key: Environment Variables
-
-
 ```js
+Frontend/.env.local
 VITE_GOOGLE_PLACES_API_KEY
 VITE_GOOGLE_GEMINI_AI_API_KEY
+VITE_GOOGLE_LENS_API_KEY
 VITE_GOOGLE_AUTH_CLIENT_ID
+VITE_API_URL=http://127.0.0.1:5000
+
 ``` 
 
