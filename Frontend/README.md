@@ -53,9 +53,9 @@ Python Virtual Env setup: <br>
 3. python app.py <br>
 
 ## Step 2:
-1.npm i
-2.Create Frontend/.env.local add api keys
-2.npm run fev
+1.npm i <br>
+2.Create Frontend/.env.local add api keys <br>
+2.npm run dev <br>
 
 ## Setup .env file
 ### :key: Environment Variables
