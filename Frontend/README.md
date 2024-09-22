@@ -47,10 +47,10 @@
 ## To run project:
 
 ## Step 1:Backend folder
-Python Virtual Env setup:
-1.python -m venv myenv
-2.to start = .\venv\Scripts\activate
-3. python app.py
+Python Virtual Env setup: <br>
+1.python -m venv myenv <br>
+2.to start = .\venv\Scripts\activate <br>
+3. python app.py <br>
 
 ## Step 2:
 1.npm i
