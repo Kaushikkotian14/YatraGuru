@@ -46,13 +46,13 @@
 
 ## To run project:
 
-## Step 1:Backend folder
+## Step 1: Backend folder
 Python Virtual Env setup: <br>
 1.python -m venv myenv <br>
 2.to start = .\venv\Scripts\activate <br>
 3. python app.py <br>
 
-## Step 2:
+## Step 2: Frontend folder
 1.npm i <br>
 2.Create Frontend/.env.local add api keys <br>
 2.npm run dev <br>
