@@ -1,5 +1,5 @@
 
-# Trip Planner App :earth_africa:	:mountain_snow:
+# YatraGuru :earth_africa:	:mountain_snow:
 
 <div style="text-align: center;"> 
  
