@@ -28,19 +28,23 @@
 ## Homepage
 ![image](https://github.com/user-attachments/assets/f248f046-140a-4d1a-a7bb-0b9d9bd48e28)
 
-## YatraNetra
+## Yatra Netra
 ![image](https://github.com/user-attachments/assets/f8ae3eda-0d9f-4206-ad37-1a5426351659)
+
+## Yatra Vaani
+![image](https://github.com/user-attachments/assets/ef353109-0869-48a4-b761-db2929f874ac)
 
 ## Create Trip
 ![image](https://github.com/user-attachments/assets/9becf901-04d3-450b-bede-975d384b407c)
 
+## View Trip
+![image](https://github.com/user-attachments/assets/9a055b0e-f1ff-4387-b080-9b154acf6d10)
+
+## My Trip
+![image](https://github.com/user-attachments/assets/f8233ae5-138a-43c9-be4e-6b7bf9d2c082)
+
 ## Yatra Sahayak
 ![image](https://github.com/user-attachments/assets/f26237d2-d614-4a47-b063-54aa17af7c02)
-
-
-
-
-
 
 <br />
 
