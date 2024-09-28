@@ -58,7 +58,7 @@ const SpeechTranslator = () => {
       .then((data) => {
         // Extract the translated text
         const translated = data.data.translations[0].translatedText;
-        setTranslatedText(translated);
+        setTranslatedText(decodeHtml(translated)); // Decode HTML entities
       })
       .catch((error) => {
         console.error('Error translating:', error);
@@ -74,6 +74,13 @@ const SpeechTranslator = () => {
   // Handle output language selection
   const handleOutputLanguageChange = (e) => {
     setOutputLanguage(e.target.value);
+  };
+
+  // Function to decode HTML entities
+  const decodeHtml = (html) => {
+    var txt = document.createElement('textarea');
+    txt.innerHTML = html;
+    return txt.value;
   };
 
   const style = {
