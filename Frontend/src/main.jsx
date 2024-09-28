@@ -12,7 +12,7 @@ import MyTrips from './my-trips/index.jsx'
 import YatraSahayak from './yatra-sahayak/index.jsx'
 import YatraNetra from './yatra-netra/index.jsx'
 import Footer from './components/custom/Footer.jsx'
-import Voice from './voice/index.jsx' 
+import YatraVaani from './yatra-vaani/index.jsx' 
 
 const router = createBrowserRouter([
 {
@@ -44,8 +44,8 @@ const router = createBrowserRouter([
   element:<YatraNetra/>
 },
 {
-  path:'/voice',
-  element:<Voice/>
+  path:'/yatra-vaani',
+  element:<YatraVaani/>
 }
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(

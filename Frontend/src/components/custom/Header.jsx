@@ -133,7 +133,7 @@ function Header() {
               <a href="/yatra-netra">
                 <Button variant="outline" className="rounded-full bg-white text-blue-500 hover:bg-blue-100">Yatra Netra</Button> 
               </a>
-              <a href="/voice">
+              <a href="/yatra-vaani">
                 <Button variant="outline" className="rounded-full bg-white text-blue-500 hover:bg-blue-100">Yatra Vaani</Button> 
               </a>
               <a href="/yatra-sahayak">
