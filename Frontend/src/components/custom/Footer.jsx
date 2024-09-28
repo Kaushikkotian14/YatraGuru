@@ -16,7 +16,7 @@ const Footer = () => {
         <div style={footerSection}>
           <h3 style={footerTitle}>Quick Links</h3>
           <ul style={footerLinks}>
-            <li><a href="#home" style={linkStyle}>Home</a></li>
+            <li><a href="/" style={linkStyle}>Home</a></li>
             <li><a href="#services" style={linkStyle}>Services</a></li>
             <li><a href="#contact" style={linkStyle}>Contact Us</a></li>
             <li><a href="#faq" style={linkStyle}>FAQ</a></li>
