@@ -209,6 +209,7 @@ const SpeechTranslator = () => {
 
         <br />
         <br />
+        
 
         {/* Start voice capture button */}
         <button
