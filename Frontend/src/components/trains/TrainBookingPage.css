@@ -1,0 +1,133 @@
+/* TrainBookingPage.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f5;
+}
+
+.train-booking-page {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.colorful-background {
+  background: linear-gradient(45deg, #8e44ad, #3498db, #1abc9c, #f39c12);
+  background-size: 150% 150%;
+  animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 10%; }
+  50% { background-position: 10% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.header {
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.tab {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.tab:hover,
+.tab.active {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.booking-container {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  border-radius: 15px;
+  max-width: 800px;
+  width: 90%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.form-group {
+  flex: 1;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.1rem;
+  color: #ecf0f1;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 80rem;
+  border: none;
+  border-radius: 100px;
+  font-size: 1rem;
+}
+
+.search-button {
+  background: linear-gradient(to right, #f39c12, #e74c3c);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.search-button:hover {
+  background: linear-gradient(to right, #e74c3c, #f39c12);
+}
+
+.train-results {
+  margin-top: 2rem;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 1rem;
+  border-radius: 10px;
+  color: #ecf0f1;
+}
+
+.train-item {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid #bdc3c7;
+}
